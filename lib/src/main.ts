@@ -48,6 +48,7 @@ import DxcDivider from "./divider/Divider";
 import DxcBreadcrumbs from "./breadcrumbs/Breadcrumbs";
 
 import HalstackContext, { HalstackProvider, HalstackLanguageContext } from "./HalstackContext";
+import DxcMarkdown from './markdown/Markdown';
 
 export {
   DxcAlert,
@@ -101,4 +102,5 @@ export {
   DxcContextualMenu,
   DxcDivider,
   DxcBreadcrumbs,
+  DxcMarkdown
 };
